@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/brands.min.css"
+    />
+    <!-- Tailwind -->
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <!-- Alpine -->
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"
+    ></script>
+    <script
+      nomodule
+      src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine-ie11.min.js"
+      defer
+    ></script>
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Custom style -->
+    <link rel="stylesheet" href="css/skilline.css" />
+    <!-- Poppins font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Yelko Clone</title>
+  </head>
+
+  <body>
+    <header>
+      <!-- Navbar -->
+
+      <div class="flex justify-between">
+        <div>
+          <img
+            class="p-5"
+            src="yelkologo.png"
+            alt="Yelko Logo"
+            height="150px"
+            width="150px"
+          />
+        </div>
+        <div class="mt-10">
+          <nav class="">
+            <ul class="list-none text-gray-600">
+              <li class="no-underline">
+                <a href="#">Students</a>
+              </li>
+              <li><a href="#">Requirements Partners</a></li>
+              <li><a href="#">Institution</a></li>
+              <li><a href="#">More</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="m-5">
+          <button class="">Log in</button>
+          <button
+            class="ml-5 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+          >
+            Register
+          </button>
+        </div>
+      </div>
+    </header>
+    <!-- Cover photo -->
+    <div class="bg-cover flex justify-center">
+      <img class="w-full" src="orginal-bk.png" alt="" />
+    </div>
+    <!-- cards -->
+    <div class="mt-10 flex flex-wrap justify-between px-4 container mx-auto">
+      <div
+        class="max-w-sm bg-white border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
+      >
+        <a href="#">
+          <img class="rounded-t-lg" src="" alt="" />
+        </a>
+        <div class="p-5">
+          <a href="#">
+            <h5
+              class="text-center mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+            >
+              Partner University/college
+            </h5>
+          </a>
+          <p
+            class="mb-3 text-center font-normal text-gray-700 dark:text-gray-400"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, nemo
+            ab. Voluptatem earum illo recusandae necessitatibus repellendus
+            itaque officia eaque!
+          </p>
+        </div>
+      </div>
+      <div
+        class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
+      >
+        <a href="#">
+          <img class="rounded-t-lg" src="" alt="" />
+        </a>
+        <div class="p-5">
+          <a href="#">
+            <h5
+              class="text-center mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+            >
+              Students
+            </h5>
+          </a>
+          <p
+            class="mb-3 text-center font-normal text-gray-700 dark:text-gray-400"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, nemo
+            ab. Voluptatem earum illo recusandae necessitatibus repellendus
+            itaque officia eaque!
+          </p>
+        </div>
+      </div>
+      <div
+        class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
+      >
+        <a href="#">
+          <img class="rounded-t-lg" src="" alt="" />
+        </a>
+        <div class="p-5">
+          <a href="#">
+            <h5
+              class="text-center mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+            >
+              Recruiment partners
+            </h5>
+          </a>
+          <p
+            class="text-center mb-3 font-normal text-gray-700 dark:text-gray-400"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, nemo
+            ab. Voluptatem earum illo recusandae necessitatibus repellendus
+            itaque officia eaque!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- why choose part ! -->
+    <div class="mt-20 container mx-auto">
+      <h2 class="text-2xl text-center font-bold">
+        Why Choose Yelko Education ?
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 px-4 mt-10 container mx-auto">
+        <div class="text-center p-8">
+          <div class="inline-flex justify-center items-center">
+            <img
+              class=""
+              src="./students_simple_application_icon2.webp"
+              alt=""
+            />
+          </div>
+
+          <h3 class="font-semibold">Complex Application</h3>
+          <p class="text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+            recusandae.
+          </p>
+        </div>
+        <div class="text-center p-8">
+          <div class="inline-flex justify-center items-center">
+            <img class="" src="./students_visa_assistance_icon2.webp" alt="" />
+          </div>
+
+          <h3 class="font-semibold">Admission Counselling</h3>
+          <p class="text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+            recusandae.
+          </p>
+        </div>
+        <div class="text-center p-8">
+          <div class="inline-flex justify-center items-center">
+            <img class="" src="./stuudents_check_eligibility_108.webp" alt="" />
+          </div>
+
+          <h3 class="font-semibold">500+ School</h3>
+          <p class="text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+            recusandae.
+          </p>
+        </div>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 px-4 mt-10 container mx-auto">
+        <div class="text-center p-8">
+          <div class="inline-flex justify-center items-center">
+            <img
+              class=""
+              src="./students_simple_application_icon2.webp"
+              alt=""
+            />
+          </div>
+
+          <h3 class="font-semibold">Simple Application</h3>
+          <p class="text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+            recusandae.
+          </p>
+        </div>
+        <div class="text-center p-8">
+          <div class="inline-flex justify-center items-center">
+            <img class="" src="./students_visa_assistance_icon2.webp" alt="" />
+          </div>
+
+          <h3 class="font-semibold">Admission Counselling</h3>
+          <p class="text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+            recusandae.
+          </p>
+        </div>
+        <div class="text-center p-8">
+          <div class="inline-flex justify-center items-center">
+            <img class="" src="./stuudents_check_eligibility_108.webp" alt="" />
+          </div>
+
+          <h3 class="font-semibold">500+ School</h3>
+          <p class="text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+            recusandae.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- we help part ! -->
+    <div class="h-80 bg-gray-400">
+      <div class="pt-10">
+        <div class="mt-6">
+          <h3 class="text-2xl text-center font-bold">
+            We have helped lots of students
+          </h3>
+          <p class="text-center">Checkout our stats of our work</p>
+        </div>
+      </div>
+      <div class="mt-20 flex justify-center">
+        <a class="p-5" href="#">Students</a>
+        <a class="p-5" href="#">Visa Procced</a>
+        <a class="p-5" href="#">Institution</a>
+        <a class="p-5" href="#">Programs</a>
+      </div>
+    </div>
+    <!-- footer part -->
+    <footer class="bg-blue-800 flex flex-wrap py-10">
+      <div class="md:px-20">
+        <img class="" src="./yelkologo.png" alt="" />
+      </div>
+      <div class="flex flex-wrap px-2 md:px-28">
+        <div class="text-left md:text-center md:px-20 md:mt-10">
+          <h3 class="text-white">Explore</h3>
+          <nav class="grid">
+            <li><a href="">Students</a></li>
+            <li><a href="">Institution</a></li>
+            <li><a href="">Program Categories</a></li>
+            <li><a href="">Agents</a></li>
+          </nav>
+        </div>
+        <div class="text-left md:text-center pl-20">
+          <h3 class="text-white">Explore</h3>
+          <nav class="grid">
+            <li><a href="">Students</a></li>
+            <li><a href="">Institution</a></li>
+            <li><a href="">Program Categories</a></li>
+            <li><a href="">Agents</a></li>
+          </nav>
+        </div>
+        <div class="text-left md:text-center pl-20">
+          <h3 class="text-white">Explore</h3>
+          <nav class="grid">
+            <li><a href="">Students</a></li>
+            <li><a href="">Institution</a></li>
+            <li><a href="">Program Categories</a></li>
+            <li><a href="">Agents</a></li>
+          </nav>
+        </div>
+        <div class="text-left md:text-center pl-20">
+          <h3 class="text-white">Explore</h3>
+          <nav class="grid">
+            <li><a href="">Students</a></li>
+            <li><a href="">Institution</a></li>
+            <li><a href="">Program Categories</a></li>
+            <li><a href="">Agents</a></li>
+          </nav>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
